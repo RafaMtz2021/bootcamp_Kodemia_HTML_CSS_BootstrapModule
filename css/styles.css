@@ -1,0 +1,159 @@
+body{
+    background: #e6e6e6;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+header .logo-contenedor img{
+    width: 161px;  
+}
+header .help-icon{
+    float: right; 
+    display: table-cell;
+    vertical-align: top;
+}
+
+header .help-icon img{
+    width: 15px;
+}
+
+header{
+    background-color: #fff059;
+    overflow: hidden;
+
+}
+
+#franja{
+    background-color: #fff059;
+    width: 100%;
+    height: 150px;
+}
+
+.center-card-title{
+    font-size: 1.0rem;
+    color: rgba(0,0,0,.8);
+}
+
+.andes-form-control__label{
+    font-size: small;
+    text-decoration-color: gray;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.center-card-header{
+    border-radius: 7px;
+    background-color:white;
+    width: 295px;
+    height: 408px;
+    padding: 32px 64px 0px 64px;
+}
+
+#boton{
+    border-color: transparent;
+    background-color: #3483fa;
+    color: #fff;
+    width: 100%;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 24px;
+    height: 48px;
+    text-align: center;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+#user_id{
+
+    font-size: 16px;
+    padding: .8125em .75em;
+    margin: 0;
+    display: inline-block;
+    width: 90%;
+    border-radius: 7px;
+    border-color: lightgray;
+    align-items: center;
+    
+}
+
+#crear a{
+    text-decoration: none;
+}
+
+#crear{
+    padding-top: 38px;
+    text-indent: 100px;
+    color: #88b5f8;
+    font-weight: 600;
+}
+
+
+
+#ayuda{
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #88b5f8;
+    font-weight: 600;
+}
+
+#ayuda a{
+    text-decoration: none;
+}
+
+#recaptcha{
+    margin: 24px 88px;
+    background: #e6e6e6;
+    width: 100%;
+    height: 150px;
+    padding-top:300px;
+    padding-bottom: 50px;
+   padding-left: 38%;
+   font-size: .75rem;
+   color: #666;
+}
+
+#recaptcha a{
+    text-decoration: none;
+
+}
+
+footer{
+    padding-top: 40px;
+    align-content: center;
+    background: #fff;
+    height: 90px;
+}
+
+.privacy{
+    text-indent: 850px;
+    padding-bottom: 10px;
+}
+
+.privacy a{
+    text-decoration: none;
+    font-size: .875rem;
+    color: rgba(0,0,0,.8)
+}
+
+.copyright{
+    text-indent:750px;
+    font-size: .75rem;
+    color: rgba(0,0,0,.45);
+}
+
+.login-form-input{
+    padding-bottom: 20px;
+}
+
+.login-form-action{
+   
+    padding-bottom: 60px;
+}
