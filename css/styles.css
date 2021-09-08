@@ -7,6 +7,11 @@
     width: 100px;
 }
 
+/* Colocar transición */
+#start-session:hover{
+
+}
+
 #sinopsis{
     display:flex;
     flex-direction: row;
@@ -118,6 +123,10 @@
 
 #header-box{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
 
     
 }
