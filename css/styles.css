@@ -121,16 +121,6 @@
     width: 100%;
 }
 
-#header-box{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1000px;
-    align-items: center;
-
-    
-}
-
 #top-section{
     display: flex;
     margin-left: auto;
