@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #e6e6e6;
+  font-family: "Open Sans";
+}
+
+.wrap-container {
+  width: 90%;
+}
+
+.content-container {
+  width: 95%;
+  padding-left: 50px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 95%;
+  padding-left: 50px;
+}
+
+nav a {
+  background: #528Fd5;
+}
+
+nav .link-container {
+  background: #528Fd5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+nav .link-container .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+nav .link-container .links li a {
+  color: #fff;
+  padding: 0 10px 0 10px;
+  background: #528Fd5;
+  text-decoration: none;
+}
+
+nav img {
+  width: 50px;
+}
+
+main {
+  width: 91%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+main .article-container .article {
+  background: #fff;
+  height: auto;
+  padding: 20px 20px 25px 20px;
+  margin: 15px;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+main .article-container .article h2 {
+  background: #fff;
+}
+
+main .article-container .article p {
+  background: #fff;
+}
+
+main .aside-bar {
+  padding: 20px 15px;
+  margin: 10px;
+  width: 20%;
+  background: #ff8000;
+  text-align: center;
+}
+
+main .aside-bar h2 {
+  color: #fff;
+  background: #ff8000;
+}
+
+main .aside-bar p {
+  color: #fff;
+  background: #ff8000;
+}
+
+footer {
+  width: 95%;
+  height: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+footer h3 {
+  background: black;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
