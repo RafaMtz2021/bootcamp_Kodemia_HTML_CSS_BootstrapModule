@@ -1,0 +1,36 @@
+body { padding-top: 70px; }
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -1.0px;
+}
+
+.bg-morado{
+    background: #733FC8;
+}
+
+.bg-gris{
+    background: #49556B;
+}
+
+.text-gray{
+    color:gray;
+}
+
+.d-flex img{
+    width: 45px;
+}
+
+.fondo-card{
+    background-image:url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
