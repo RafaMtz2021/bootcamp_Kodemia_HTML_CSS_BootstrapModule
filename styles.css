@@ -30,7 +30,16 @@ body { padding-top: 70px; }
 }
 
 .fondo-card{
-    background-image:url(./bg-pattern-quotation.svg);
+    background-image:url(./img/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: 85% top;
 }
+
+.item {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+  }
