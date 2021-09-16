@@ -11,17 +11,19 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: purple;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Navbar</a>
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/cat.svg" alt="" width="55" height="45" class="d-inline-block align-text-top">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -35,31 +37,44 @@
       </div>
     </div>
   </nav>
-  <main class="container border border-primary">
+  <main class="container pt-lg-5">
     <div class="row">
-      <div class="col-12 col-lg-6 border border-secondary">
-        seccion de card
+      <!-- sección de card -->
+      <div class="col-12 col-lg-7">
+        <div class="card mb-3" >
+          <div class="row align-items-center">
+            <div class="col-12 col-md-4 align-image h-100">
+              <img src="./img/img-card.jpeg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-12 col-md-8 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla dolores ipsa, aspernatur veniam quis, fugiat eos voluptate accusantium magnam incidunt facilis voluptatum quo delectus quaerat eaque architecto pariatur odit. Facilis voluptatum quo delectus quaerat eaque architecto pariatur odit.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-lg-6 border border-dark">
+      <div class="container col-12 col-lg-5">
+        <!-- Sección de carrusel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/22158-gatos.jpg" class="d-block w-100 item" alt="...">
+              <img src="./img/22159-gatos.jpg" class="d-block img-fluid w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/22159-gatos.jpg" class="d-block w-100 item" alt="...">
+              <img src="./img/22179-gatos.jpg" class="d-block img-fluid w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/22179-gatos.jpg" class="d-block w-100 item" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/22195-gatos.jpg" class="d-block w-100 item" alt="...">
+              <img src="./img/22181-gatos.jpg" class="img-fluid w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

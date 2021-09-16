@@ -43,3 +43,19 @@ body { padding-top: 70px; }
     background-repeat: non-repeat;
     background-size: cover;
   }
+
+  .form-settings{
+      width: 50%;
+      height: auto;
+  }
+
+  .align-image{
+      display: flex;
+      justify-content: center;
+  }
+
+@media (min-width:280px) and (max-width:900px) {
+    .form-settings{
+        width: 70%;
+    }
+}
